@@ -254,7 +254,7 @@ def get_model_list(controller_url, register_api_endpoint_file, vision_arena):
 
 def load_demo_single(context: Context, query_params):
     # default to text models
-    models = context.text_models
+    models = context
 
     selected_model = models[0] if len(models) > 0 else ""
     if "model" in query_params:
