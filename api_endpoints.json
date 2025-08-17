@@ -3,24 +3,35 @@
     "model_name": "ft:gpt-4.1-nano-2025-04-14:jgwill:coaia250709n1b3:BrWkpMDi",
     "api_type": "openai",
     "api_base": "https://api.openai.com/v1",
-    "api_key": "${OPENAI_API_KEY}"
+    "api_key": "${OPENAI_API_KEY}",
+    "anony_only": true
   },
   "coaia-gemini-latest": {
     "model_name": "projects/242650888445/locations/us-central1/models/7008782995188350976",
     "api_type": "vertex",
     "project_id": "top-moment-465521-v9",
-    "location": "us-central1"
+    "location": "us-central1",
+    "anony_only": true
   },
   "coaia-gemini-b": {
     "model_name": "projects/242650888445/locations/us-central1/models/6886059905342504960",
-    "api_type": "vertex", 
-    "project_id": "top-moment-465521-v9",
-    "location": "us-central1"
-  },
-  "coaia-gemini-manual": {
-    "model_name": "projects/242650888445/locations/us-central1/models/6815304133071863808",
     "api_type": "vertex",
-    "project_id": "top-moment-465521-v9", 
-    "location": "us-central1"
+    "project_id": "top-moment-465521-v9",
+    "location": "us-central1",
+    "anony_only": true
+  },
+  "coaia-openai-rise": {
+    "model_name": "ft:gpt-4.1-nano-2025-04-14:jgwill:coaia250708n1b2rise1:BrCP9Z2q",
+    "api_type": "openai",
+    "api_base": "https://api.openai.com/v1",
+    "api_key": "${OPENAI_API_KEY}",
+    "anony_only": true
+  },
+  "gpt-4o-baseline": {
+    "model_name": "gpt-4o",
+    "api_type": "openai",
+    "api_base": "https://api.openai.com/v1",
+    "api_key": "${OPENAI_API_KEY}",
+    "anony_only": false
   }
 }
